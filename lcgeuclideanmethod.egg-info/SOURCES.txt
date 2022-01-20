@@ -1,0 +1,12 @@
+LISENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+lcgeuclideanmethod.egg-info/PKG-INFO
+lcgeuclideanmethod.egg-info/SOURCES.txt
+lcgeuclideanmethod.egg-info/dependency_links.txt
+lcgeuclideanmethod.egg-info/requires.txt
+lcgeuclideanmethod.egg-info/top_level.txt
+lcgttest/__init__.py
+lcgttest/lcgttest.py

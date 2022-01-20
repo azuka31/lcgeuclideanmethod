@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: lcgeuclideanmethod
+Version: 0.1.0
+Summary: Determining LCG population from campaign takers/non by calculating Euclidean Method and ttest
+Home-page: UNKNOWN
+Author: Azka Rohbiya Ramadan
+Author-email: azkarohbiya@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.1
+
+LCG T-TEST USING EUCLIDEAN METHOD
+---------------------------------
+Advanced Analytics and Growth Marketing Telkomsel
+-------------------------------------------------
+Project Supervisor : Rizli Anshari
+Writer             : Azka Rohbiya Ramadani, Muhammad Gilang, Demi Lazuardi
+
+This project has been created for statistical usage, purposing for determining ATL takers and nontakers using LCG ttest and Euclidean Method.
+
+This python requires related package
+more importantly python_requires='>=3.1', so that package can be install
+Make sure the other packages meet the requirements below
+'pandas>=1.1.5',
+'numpy>=1.18.5',
+'scipy>=1.2.0',
+'matplotlib>=3.1.0',
+'statsmodels>=0.8.0'
+
