@@ -3,7 +3,7 @@
 ## Advanced Analytics and Growth Marketing Telkomsel
 ----------------------------------------------------
 - Project Supervisor : Rizli Anshari, General Manager of AAGM Telkomsel
-- Writer             : Azka Rohbiya Ramadani, Muhammad Gilang, Demi Lazuardi
+- Writer             : Azka Rohbiya Ramadani, Mochammad Gilang, Demi Lazuardi
 
 This project has been created for statistical usage, purposing for determining ATL takers and nontakers using LCG ttest and Euclidean Method, especially for internal business case in Telkomsel.
 
