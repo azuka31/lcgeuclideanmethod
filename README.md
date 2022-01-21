@@ -127,7 +127,7 @@ print(model3.dict_tukey)
 print(model3.df_asc_desc_avg)
 ```
 
-### 4.dfpack2arr
+### 4. dfpack2arr
 
 This function is made for data preparation changing df_takers or df_nontakers from table containig five columns (customers, campaign, rev before, rev after, delta). Therefore, no need creating list dataframe.
 
