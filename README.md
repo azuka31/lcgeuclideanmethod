@@ -129,7 +129,7 @@ print(model3.df_asc_desc_avg)
 
 ### 4. dfpack2arr
 
-This function is made for data preparation changing df_takers or df_nontakers from table containig five columns (customers, campaign, rev before, rev after, delta). Fyi, rev after and delta will be not used, but will be developed for future works. Therefore, no need creating list dataframe.
+This function is made for data preparation changing df_takers or df_nontakers from table containig five columns (customers, campaign, rev before, rev after, delta). For your information, rev after and delta will be not used, but will be developed for future works. Therefore, no need creating list dataframe.
 
 sample code
 ```
