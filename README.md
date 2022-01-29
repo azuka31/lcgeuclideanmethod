@@ -1,26 +1,21 @@
 # LCG T-TEST USING EUCLIDEAN METHOD
------------------------------------
 ## Advanced Analytics and Growth Marketing Telkomsel
-----------------------------------------------------
 - Project Supervisor : Rizli Anshari, General Manager of AAGM Telkomsel
 - Writer             : Azka Rohbiya Ramadani, Mochammad Gilang, Demi Lazuardi
 
 This project has been created for statistical usage, purposing for determining ATL takers and nontakers using LCG ttest and Euclidean Method, especially for internal business case in Telkomsel.
 
 ## Background
--------------
 In offering digital product, bussiness analyst must have considered what is the most suitable criterias of customers who have potential to buy the product. As an illustration, targetting gamers for games product campaign is better decision rather than targetting random customers without knowing customers behaviour. However, bussiness wouldn't make all the gamers as the campaign target, otherwise, market team deliberately wouldn't offer to several gamers randomly as comparison, called as Control Group. Therefore, it enables the team in measuring how success the campaign is.
 
 After the campaign, there are product takers who are expected comes from campaign target. Additionaly, nontakers group is expected comes from Control Group and non-target customers. The analysis problems emerge afterwards, since nontakers might come from outside target. For this reason, our team made statistical technique in python algorithm to determine Control Group by applying euclideanmethod-combined t-test, in order for comparing takers and nontakers behaviour before the campaign, in this case we're focusing on revenue before. As a result, it enables bussiness analyst evaluating how success the campaign is.
 
 ## Installation Guide
----------------------
 This algorith has been uploaded to pypi.org. Therefore, in order to get package, you can easely download using the following command
 
 `pip3 install lcgeuclideanmethod`
 
 ## Requirements
----------------
 This python requires related package
 more importantly python_requires='>=3.1', so that package can be install
 Make sure the other packages meet the requirements below
@@ -31,7 +26,6 @@ Make sure the other packages meet the requirements below
 - statsmodels>=0.8.0
 
 ## Usage Guide
---------------
 ### 1. EuclideanMethod
 - Input:
   - df_takers     : dataframe takers containing two columns, customers and revenue before campaign
