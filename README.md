@@ -43,7 +43,7 @@ Make sure the other packages meet the requirements below
   - tukey         : tukey HSD evaluation, readmore [Tukey HSD](https://www.statsmodels.org/dev/generated/statsmodels.stats.multicomp.pairwise_tukeyhsd.html)
 
 sample code
-```
+```python
 from lcgttest.lcgttest import EuclideanMethod
 import pandas as pd
 
@@ -73,7 +73,7 @@ This is like map function in python
   - dict_tukey         : tukey HSD evaluation, readmore [Tukey HSD](https://www.statsmodels.org/dev/generated/statsmodels.stats.multicomp.pairwise_tukeyhsd.html) in dicttionary type.
 
 sample code
-```
+```python
 from lcgttest.lcgttest import MapEuclideanMethod
 import pandas as pd
 import numpy as np
@@ -105,7 +105,7 @@ This is run twice MapEuclideanMethod ascending and descending (technique to rand
   - dict_tukey         : tukey HSD evaluation, readmore [Tukey HSD](https://www.statsmodels.org/dev/generated/statsmodels.stats.multicomp.pairwise_tukeyhsd.html) in dicttionary type.
 
 sample code
-```
+```python
 from lcgttest.lcgttest import EuclideanMethodAscDesc
 import pandas as pd
 import numpy as np
@@ -132,7 +132,7 @@ print(model3.df_asc_desc_avg)
 This function is made for data preparation changing df_takers or df_nontakers from table containig five columns (customers, campaign, rev before, rev after, delta). For your information, rev after and delta will be not used, but will be developed for future works. Therefore, no need creating list dataframe.
 
 sample code
-```
+```python
 arr_df_takers, arr_df_nontakers, labels = dfpack2arr('takers_perpack.csv','nontakers_perpack.csv')
 
 ```
